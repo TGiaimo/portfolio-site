@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-spacer {
+  background-color: whitesmoke;
+  min-height: 10vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  padding-left: 5vh;
+  padding-right: 5vh;
+  color: black;
+}
+
+.header {
+
+}
+
+.header-column {
+  display: flex;
+  background-color: whitesmoke;
+  min-height: 10vh;
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected {
+  background-color: gainsboro;
+}
+
+.App-body {
+  background-color: white;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(24px + 2vmin);
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
